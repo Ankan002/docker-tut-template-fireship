@@ -1,0 +1,9 @@
+-> Run docker build -t <--username-->/<--tagName--> to create a container
+
+-> Now use the command docker run <--container id--> to run the container. But remember that this port will not be available to localhost
+
+-> To make it publicly available we should use the command docker run -p <--my-port--> : <--hosted-port--> <--container id-->
+
+-> To build docker compose image use docker-compose build -t <--username-->/<--tagName--> to create a container
+
+-> Use docker-compose up to run the docker-compose image

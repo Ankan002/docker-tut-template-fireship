@@ -1,0 +1,19 @@
+{
+  "name": "docker-tut-template-fireship",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ankan",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
